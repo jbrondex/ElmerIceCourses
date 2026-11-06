@@ -9,10 +9,10 @@ The material furnished is:
 *Data*: DEM_bedrock_ArgentiereLarge.dat, DEM_surface_Argentiere1998.dat, contour_2014_ARG.dat, contour_Argentiere_large.dat, safran_daily_tas.dat, safran_daily_pr.dat, MaskRelief.dat , MaskAccu.dat<br> 
 *SRC*: Compute2DNodalGradient.F90, Scalar_OUTPUT_Glacier.F90, TransientMassBalance_MaskRelief.F90, README.md<br>
 *bin*: Compile.sh<br>
-*0_MakeMesh*: README.md, Makegeo.py<br>
+*0_MakeMesh*: README.md, Contour2geo.py<br>
 *1_IMPORT_DEM*: README.md, initialise_DEM.sif<br>
 *2_ICE_AGE*: README.md, age_of_ice.sif<br>
-*3_TRANSIENT*: README.md, transient.sif, GlacierOut (directory)<br>
+*3_TRANSIENT*: README.md, transient.sif, plot_ARG_Transient_1C.py, plot_Profil_ARG_Transient_1C.py, GlacierOut (directory to build)<br>
 
 
 Related papers from which this example is inpired:<br> 

@@ -4,6 +4,8 @@ Execute the simulation:<br>
 Serial: `ElmerSolver transient.sif`<br> 
 Parallel: `mpirun -np 4 ElmerSolver transient.sif`  
 
+Take care that the number of nodes required (np) is compatible with the number of partitions of the mesh (4 here) 
+
 A directory GlacierOut has to be created to store the output .dat files
 
-Take care that the number of nodes required (np) is compatible with the number of partitions of the mesh (4 here) 
+Two python scripts are available for post-treatment (i.e. plot figures from output files)
